@@ -1,0 +1,17 @@
+{
+  "name": "Node.js & Ruby Dev Container",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode",
+    "shopify.theme-check-vscode",
+    "ways-agency.shopify-liquid-snippets",
+    "ms-azuretools.vscode-docker"
+  ],
+  "forwardPorts": [3000],
+  "remoteUser": "node"
+}
